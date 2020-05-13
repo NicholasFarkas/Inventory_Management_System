@@ -1,17 +1,11 @@
 //
-//  main.cpp
+//  AutoPart.cpp
 //  Inventory_Management_System
 //
 //  Created by Nicholas Farkas on 5/12/20.
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
-#include <iostream>
+#include "AutoPart.hpp"
 
-using namespace std;
 
-int main()
-{
-
-    return 0;
-}
