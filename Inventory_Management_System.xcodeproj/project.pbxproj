@@ -40,6 +40,7 @@
 		811FD086246B756200A3543C /* BulkLiquid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BulkLiquid.hpp; sourceTree = "<group>"; };
 		811FD088246B765100A3543C /* AutoPart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutoPart.cpp; sourceTree = "<group>"; };
 		811FD089246B765100A3543C /* AutoPart.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AutoPart.hpp; sourceTree = "<group>"; };
+		81879ABC246BB83900919862 /* Catch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Catch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			children = (
 				811FD074246B423900A3543C /* Inventory_Management_System */,
 				811FD073246B423900A3543C /* Products */,
+				81879ABC246BB83900919862 /* Catch */,
 			);
 			sourceTree = "<group>";
 		};

@@ -9,4 +9,9 @@
 #include "Product.hpp"
 #include <iostream>
 
-
+Product::Product(int productId, string productName, float productPrice)
+{
+    _productId = productId;
+    _productName = productName;
+    _procductPrice = productPrice;
+}

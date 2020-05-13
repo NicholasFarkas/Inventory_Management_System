@@ -19,10 +19,11 @@ class AutoPart : public Product
 private:
     string _manufacture;
     set<string> _compatableVINs;
-    int reOrderQuanity;
+    int _reOrderQuanity;
 public:
     set<string> getVINs(){return _compatableVINs;}
     string getManufacture(){return _manufacture;}
+    AutoPart(int, string, float, int);
 };
 
 #endif /* AutoPart_hpp */

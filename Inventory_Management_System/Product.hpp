@@ -24,6 +24,7 @@ protected:
 public:
     virtual void printInformation();
     virtual void reOrder();
+    Product(int, string, float);
     
 };
 

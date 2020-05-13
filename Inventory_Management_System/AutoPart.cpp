@@ -8,4 +8,8 @@
 
 #include "AutoPart.hpp"
 
-
+AutoPart::AutoPart(int productId, string productName, float productPrice, int reOrderQuanity):
+Product(productId, productName, productPrice)
+{
+    _reOrderQuanity = reOrderQuanity;
+}

@@ -7,11 +7,16 @@
 //
 
 #include <iostream>
+#include "Product.hpp"
+#include "Service.hpp"
+#include "Employee.hpp"
+#include "BulkLiquid.hpp"
+#include "AutoPart.hpp"
 
 using namespace std;
 
 int main()
 {
-
+    
     return 0;
 }

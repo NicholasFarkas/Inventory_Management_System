@@ -7,3 +7,9 @@
 //
 
 #include"Service.hpp"
+
+Service::Service(int productId, string productName, float productPrice, float timeOfService):
+Product(productId, productName, productPrice)
+{
+    _timeOfService = timeOfService;
+}

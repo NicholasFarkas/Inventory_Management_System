@@ -18,7 +18,9 @@ class BulkLiquid : public Product
 private:
     bool _isHazmat;
     string _manufacture;
-    int reOrderQuanity;
+    int _reOrderQuanity;
+public:
+    BulkLiquid(int, string, float, bool, int);
 };
 
 #endif /* BulkLiquid_hpp */

@@ -20,7 +20,9 @@ class Service : public Product
 {
 private:
     float _timeOfService;
-    vector<Employee> certifiedEmployees;
+    vector<Employee> _certifiedEmployees;
+public:
+    Service(int, string, float, float);
 };
 
 #endif /* Service_hpp */
