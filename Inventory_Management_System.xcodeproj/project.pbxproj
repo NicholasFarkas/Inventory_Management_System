@@ -28,6 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8115CBCD246CBF5B00F1A333 /* AutoPart3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoPart3.txt; sourceTree = "<group>"; };
+		8115CBCE246CC00F00F1A333 /* BulkLiquid1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BulkLiquid1.txt; sourceTree = "<group>"; };
+		8115CBD0246CC06700F1A333 /* BulkLiquid2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BulkLiquid2.txt; sourceTree = "<group>"; };
+		8115CBD1246CC09700F1A333 /* BulkLiquid3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BulkLiquid3.txt; sourceTree = "<group>"; };
+		8115CBD4246CD90800F1A333 /* AutoPart2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoPart2.txt; sourceTree = "<group>"; };
 		811FD072246B423900A3543C /* Inventory_Management_System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inventory_Management_System; sourceTree = BUILT_PRODUCTS_DIR; };
 		811FD075246B423900A3543C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		811FD07C246B48D800A3543C /* Product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Product.cpp; sourceTree = "<group>"; };
@@ -41,6 +46,7 @@
 		811FD088246B765100A3543C /* AutoPart.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AutoPart.cpp; sourceTree = "<group>"; };
 		811FD089246B765100A3543C /* AutoPart.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AutoPart.hpp; sourceTree = "<group>"; };
 		81879ABC246BB83900919862 /* Catch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Catch; sourceTree = "<group>"; };
+		81879ABF246CA28C00919862 /* AutoPart1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AutoPart1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8115CBD3246CC0C600F1A333 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				8115CBD1246CC09700F1A333 /* BulkLiquid3.txt */,
+				8115CBD0246CC06700F1A333 /* BulkLiquid2.txt */,
+				8115CBCE246CC00F00F1A333 /* BulkLiquid1.txt */,
+				81879ABF246CA28C00919862 /* AutoPart1.txt */,
+				8115CBD4246CD90800F1A333 /* AutoPart2.txt */,
+				8115CBCD246CBF5B00F1A333 /* AutoPart3.txt */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
 		811FD069246B423900A3543C = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +93,7 @@
 		811FD074246B423900A3543C /* Inventory_Management_System */ = {
 			isa = PBXGroup;
 			children = (
+				8115CBD3246CC0C600F1A333 /* TestData */,
 				811FD075246B423900A3543C /* main.cpp */,
 				811FD07C246B48D800A3543C /* Product.cpp */,
 				811FD07D246B48D800A3543C /* Product.hpp */,
