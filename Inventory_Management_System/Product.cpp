@@ -9,9 +9,27 @@
 #include "Product.hpp"
 #include <iostream>
 
-Product::Product(int productId, string productName, float productPrice)
+Product::Product(int productId)
 {
     _productId = productId;
-    _productName = productName;
-    _procductPrice = productPrice;
 }
+
+void Product::postData(){}
+
+void Product::printInformation(){}
+
+void Product::reOrder(){}
+
+int Product::getID(){return _productId;}
+
+int Product::getQuantity(){return 0;}
+
+void Product::setQuantity(int){}
+
+void Product::updateQuantity(){}
+
+void Product::postData(int){}
+
+string Product::getProductType(){return _productType;}
+
+string Product::getProductName(){return _productName;}

@@ -19,11 +19,21 @@ class AutoPart : public Product
 private:
     string _manufacture;
     set<string> _compatableVINs;
-    int _reOrderQuanity;
+    int _reOrderQuantity;
+    int _quantity;
 public:
     set<string> getVINs(){return _compatableVINs;}
     string getManufacture(){return _manufacture;}
-    AutoPart(int, string, float, int);
+    void printInformation();
+    AutoPart(int);
+    void postData();
+    void postData(int);
+    void reOrder();
+    int getQuantity();
+    void setQuantity(int);
+    void updateQuantity();
+    int getSale();
+    void checkQuantity();
 };
 
 #endif /* AutoPart_hpp */

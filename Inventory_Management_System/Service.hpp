@@ -22,7 +22,14 @@ private:
     float _timeOfService;
     vector<Employee> _certifiedEmployees;
 public:
-    Service(int, string, float, float);
+    Service(int);
+    void printInformation();
+    void postData();
+    void postData(int);
+    void reOrder();
+    int getQuantity();
+    void setQuantity(int);
+    void updateQuantity();
 };
 
 #endif /* Service_hpp */

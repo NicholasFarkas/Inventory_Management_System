@@ -7,3 +7,17 @@
 //
 
 #include "Employee.hpp"
+
+Employee::Employee(int employeeID, string employeeName)
+{
+    _employeeID = employeeID;
+}
+
+Employee::Employee()
+{
+    
+}
+
+void Employee::setEmployeeID(int employeeID){_employeeID = employeeID;}
+
+void Employee::setEmployeeName(string employeeName){_employeeName = employeeName;}

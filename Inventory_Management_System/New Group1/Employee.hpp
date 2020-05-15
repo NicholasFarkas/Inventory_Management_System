@@ -2,7 +2,7 @@
 //  Employee.hpp
 //  Inventory_Management_System
 //
-//  Created by Nicholas Farkas on 5/12/20.
+//  Created by Nicholas Farkas
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
@@ -17,10 +17,14 @@ using namespace std;
 
 class Employee
 {
-private:
+protected:
     int _employeeID;
     string _employeeName;
-
+public:
+    Employee(int, string);
+    Employee();
+    void setEmployeeID(int);
+    void setEmployeeName(string);
 };
 
 #endif /* Employee_hpp */

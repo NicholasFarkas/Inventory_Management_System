@@ -20,11 +20,20 @@ protected:
     int _productId;
     string _productName;
     string _productDescription;
-    float _procductPrice;
+    float _productPrice;
+    string _productType;
 public:
     virtual void printInformation();
     virtual void reOrder();
-    Product(int, string, float);
+    virtual void postData();
+    virtual void postData(int);
+    virtual int getQuantity();
+    virtual void setQuantity(int);
+    virtual void updateQuantity();
+    int getID();
+    string getProductType();
+    string getProductName();
+    Product(int);
     
 };
 
