@@ -2,7 +2,7 @@
 //  Employee.cpp
 //  Inventory_Management_System
 //
-//  Created by Nicholas Farkas on 5/12/20.
+//  Created by Nicholas Farkas
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
@@ -21,3 +21,8 @@ Employee::Employee()
 void Employee::setEmployeeID(int employeeID){_employeeID = employeeID;}
 
 void Employee::setEmployeeName(string employeeName){_employeeName = employeeName;}
+
+int Employee::getEmployeeID(){return _employeeID;}
+
+string Employee::getEmployeeName(){return _employeeName;}
+

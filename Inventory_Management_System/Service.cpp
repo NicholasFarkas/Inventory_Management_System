@@ -2,7 +2,7 @@
 //  Service.cpp
 //  Inventory_Management_System
 //
-//  Created by Nicholas Farkas on 5/12/20.
+//  Created by Nicholas Farkas
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
@@ -51,7 +51,6 @@ void Service::postData()
 void Service::postData(int i)
 {
     ifstream inputfile;
-    string temp;
     string fileName = "Service" + to_string(i) + ".txt";
     int tempId;
     string tempName;
@@ -71,6 +70,8 @@ void Service::postData(int i)
         inputfile >> _timeOfService;
         inputfile >> tempId;
         getline(inputfile, tempName);
+        _certifiedEmployees.setEmployeeID(tempId);
+        _certifiedEmployees.setEmployeeName(tempName);
         
         inputfile.close();
     }
@@ -84,7 +85,8 @@ void Service::printInformation()
     cout<<"Name: "<<_productName<<endl;
     cout<<"Description: "<<_productDescription<<endl;
     cout<<"Price: "<<_productPrice<<endl;
-    cout<<"Average Time of Service: "<<_timeOfService<<" Minutes"<<endl<<endl;
+    cout<<"Average Time of Service: "<<_timeOfService<<" Minutes"<<endl;
+    cout<<"Certified Employee ID: "<<_certifiedEmployees.getEmployeeID()<<endl;
 }
 
 void Service::reOrder(){cout<<"Cannot reOrder a service"<<endl;}

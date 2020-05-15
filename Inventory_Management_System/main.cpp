@@ -2,7 +2,7 @@
 //  main.cpp
 //  Inventory_Management_System
 //
-//  Created by Nicholas Farkas on 5/12/20.
+//  Created by Nicholas Farkas
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
@@ -184,7 +184,7 @@ void direct(vector<Product*>& products, int choice)
             menu(products);
             break;
         case 8:
-            cout<<"Your product inventory ended up being "<<ExitProgram(products)<<endl;
+            cout<<"Your product inventory contained "<<ExitProgram(products)<<" products"<<endl;
             cout<<endl<<"Thank you for using this Inventory Management System!"<<endl;
             break;
         default:

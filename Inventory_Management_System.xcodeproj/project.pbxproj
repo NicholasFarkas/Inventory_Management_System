@@ -36,9 +36,8 @@
 		8115CBD5246D24FC00F1A333 /* Service1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Service1.txt; sourceTree = "<group>"; };
 		8115CBD6246D250900F1A333 /* Service2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Service2.txt; sourceTree = "<group>"; };
 		8115CBD7246D251900F1A333 /* Service3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Service3.txt; sourceTree = "<group>"; };
-		8115CBD8246D2B7000F1A333 /* EmployeeRoster.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = EmployeeRoster.txt; sourceTree = "<group>"; };
-		8115CBDA246D355400F1A333 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Employee.hpp; path = "New Group1/Employee.hpp"; sourceTree = "<group>"; };
-		8115CBDC246D357000F1A333 /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		8115CBDE246E2BF100F1A333 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		8115CBDF246E3DCA00F1A333 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
 		811FD072246B423900A3543C /* Inventory_Management_System */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inventory_Management_System; sourceTree = BUILT_PRODUCTS_DIR; };
 		811FD075246B423900A3543C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		811FD07C246B48D800A3543C /* Product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Product.cpp; sourceTree = "<group>"; };
@@ -80,13 +79,12 @@
 			path = TestData;
 			sourceTree = "<group>";
 		};
-		8115CBDB246D356500F1A333 /* Catch */ = {
+		8115CBDD246E2B7900F1A333 /* README */ = {
 			isa = PBXGroup;
 			children = (
-				8115CBD8246D2B7000F1A333 /* EmployeeRoster.txt */,
-				8115CBDC246D357000F1A333 /* catch.hpp */,
+				8115CBDE246E2BF100F1A333 /* readme.txt */,
 			);
-			path = Catch;
+			path = README;
 			sourceTree = "<group>";
 		};
 		811FD069246B423900A3543C = {
@@ -108,14 +106,14 @@
 		811FD074246B423900A3543C /* Inventory_Management_System */ = {
 			isa = PBXGroup;
 			children = (
-				8115CBDB246D356500F1A333 /* Catch */,
+				8115CBDD246E2B7900F1A333 /* README */,
 				8115CBD3246CC0C600F1A333 /* TestData */,
 				811FD075246B423900A3543C /* main.cpp */,
 				811FD07C246B48D800A3543C /* Product.cpp */,
 				811FD07D246B48D800A3543C /* Product.hpp */,
 				811FD07F246B4AB300A3543C /* Service.cpp */,
 				811FD080246B4AB300A3543C /* Service.hpp */,
-				8115CBDA246D355400F1A333 /* Employee.hpp */,
+				8115CBDF246E3DCA00F1A333 /* Employee.hpp */,
 				811FD082246B4B2600A3543C /* Employee.cpp */,
 				811FD085246B756200A3543C /* BulkLiquid.cpp */,
 				811FD086246B756200A3543C /* BulkLiquid.hpp */,

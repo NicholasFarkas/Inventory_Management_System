@@ -2,7 +2,7 @@
 //  Service.hpp
 //  Inventory_Management_System
 //
-//  Created by Nicholas Farkas on 5/12/20.
+//  Created by Nicholas Farkas
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class Service : public Product
 {
 private:
     float _timeOfService;
-    vector<Employee> _certifiedEmployees;
+    Employee _certifiedEmployees;
 public:
     Service(int);
     void printInformation();

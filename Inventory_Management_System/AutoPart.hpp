@@ -2,7 +2,7 @@
 //  AutoPart.hpp
 //  Inventory_Management_System
 //
-//  Created by Nicholas Farkas on 5/12/20.
+//  Created by Nicholas Farkas
 //  Copyright © 2020 Nicholas Farkas. All rights reserved.
 //
 
